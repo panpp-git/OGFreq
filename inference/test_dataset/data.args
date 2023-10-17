@@ -1,0 +1,24 @@
+{
+  "output_dir": "./test_dataset",
+  "overwrite": 1,
+  "n_test": 1000,
+  "signal_dimension": 64,
+  "minimum_separation": 1,
+  "max_freq": 10,
+  "distance": "normal",
+  "amplitude": "uniform",
+  "floor_amplitude": 0.1,
+  "dB": [
+    "-10",
+    "-5",
+    "0",
+    "5",
+    "10",
+    "15",
+    "20",
+    "25",
+    "30"
+  ],
+  "numpy_seed": 99,
+  "torch_seed": 99
+}
